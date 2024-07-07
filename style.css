@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    /* background-color: rgb(205, 255, 139); */
+    background-color: azure;
+
+}
+
+.main{
+/* align-items: center;
+text-align: center  ; */
+
+}
+.container-fluid1 h1{
+    margin-left: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.1rem;
+   
+}
+.container-fluid1 img{
+    height: 10%;
+    width: 10%;
+}
+.container-fluid1{
+    background-color: oldlace;
+    
+}
+.form-horizontal{
+    margin-top: 1%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    /* justify-content: center;
+    text-align: center; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.form-input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+/* .btn{
+    margin-top: 1%;
+    margin-left: 4%;
+ 
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    width: 300px;
+
+} */
+.btn-lg{
+    margin-top: 2%;
+    margin-left: 10%;
+    border-radius: 10px ;
+    background-color: black;
+    color:aqua;
+    height: 30px;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    /* font-size: 1.5rem; */
+}
+.btn-lg:hover{
+    border-radius: 10px ;
+    background-color:aqua;
+    color: black;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+/* .totalfare{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+.output-info{
+    margin-left: 10%;
+    /* background-color: bisque; */
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    
+}
+.output-area{
+    /* margin-left: 10%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+.fare-distribution{
+    margin-right: 10%;
+}
+.totalfare{
+    margin-left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    
+}
+.totalfare-area{
+    align-items: center;
+    border: 2px solid black;
+    margin-left: 5%;
+    width: 85%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+#googleMap{
+    margin-top: 2%;
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    width: 90%;
+    height: 400px;
+    border-radius: 50px;
+    border: 1px solid aquamarine;
+}
+.footer{
+    margin-bottom:2%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.by{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
